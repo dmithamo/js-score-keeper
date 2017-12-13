@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>dom stuff</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            .mark-winner{
+                color: greenyellow;
+            }
+            .arrange-dem{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="arrange-dem">
+            <h1>Keeping scores</h1>
+            <h2>Playing to: <span id="max-line">0</span> </h2>
+            <h2>Scores : <span id="player1ScoreDisplay">0</span> to <span id="player2ScoreDisplay">0</span></h2>
+    
+            <p>
+                Set Max Score: <input type="number" id="set-max">
+                <button id="player1-button">Player 1</button>
+                <button id="player2-button">Player 2</button>
+                <button id="reset">Reset</button>
+            </p>
+
+            <h3 style="background:black; color:white">The js code needs some refining. It's too ... mechanical. <kbd>[Lacks finnesse]</kbd></h3>
+
+                
+    
+            <script src="scorekeeper.js"></script>
+        </div>
+    </body>
+</html>
