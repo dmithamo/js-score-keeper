@@ -17,7 +17,6 @@ function markWinner(){
     target.classList.add("mark-winner");
 }
 
-
 function addScorePlayer1(){
     if(!gameOver){
         player1Score ++;
@@ -28,8 +27,7 @@ function addScorePlayer1(){
         }
     }
 }
-        
-        
+          
 function addScorePlayer2(){
     if(!gameOver){
         player2Score ++;
